@@ -36,6 +36,9 @@ A detailed project report is available in `FTEC_4008_Projects_v1.pdf`.
 - matplotlib
 - seaborn
 - tqdm
+- collections
+- chronos-forecasting
+- transformers==4.40.1
 
 Install dependencies via pip:
 ```bash
@@ -66,8 +69,7 @@ pip install pandas numpy torch transformers scikit-learn matplotlib seaborn tqdm
 ### 2. Local Environment
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/FTEC4008.git
-   cd FTEC4008
+   git clone https://github.com/chick009/FTEC4008-Projects
    ```
 2. Install dependencies as shown above.
 3. Start Jupyter Lab/Notebook:
