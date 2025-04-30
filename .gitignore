@@ -2,6 +2,7 @@
 *.csv
 *.pt
 *.pth
+*.pptx
 
 # Cache directories
 __pycache__/

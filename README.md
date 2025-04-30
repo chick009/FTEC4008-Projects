@@ -87,16 +87,13 @@ pip install pandas numpy torch transformers scikit-learn matplotlib seaborn tqdm
 ## Data Files
 - **`ohlcv.csv`**: Contains daily open, high, low, close, volume data for selected stocks.
 - **`is_easy_*.csv`**: Labels indicating easy/hard forecast cases based on price movement thresholds.
-- **`finbert_emb_v2.csv`**: Mapping of dates and stocks to precomputed FinBERT embeddings (`.pt` files).
+- **`finbert_emb_v2.csv`**: Mapping of dates and stocks to precomputed FinBERT embeddings (`.pt` files). You can access the precomputed embeddings via https://drive.google.com/drive/folders/1ptIf0xGgmRqxDpSb0kLXo_9ssdaZuCuY?usp=sharing 
 
 > The notebooks will load these files, merge them into a unified DataFrame, and save intermediate outputs (e.g., `merged_dataset.csv`) to speed up subsequent runs.
 
 ## Outputs & Results
 - **Classification Reports**: Precision, recall, F1-score for each condition (with/without sentiment, masking).
-- **SAE Analysis**:
-  - t-SNE visualizations of hidden states.
-  - Top neuron activation bar charts.
-  - Clustering and downstream classification metrics (logistic regression, random forest).
+- **SAE Analysis**: Clustering and downstream classification metrics (random forest).
 - All plots and reports are saved under `Execution_Proof/` or as specified in each notebook.
 
 ---
