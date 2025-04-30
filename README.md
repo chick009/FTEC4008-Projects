@@ -1,5 +1,8 @@
 # FTEC_4008 – Financial Time Series Classification with Sentiment Embeddings and SAE
 
+## AI Disclaimer
+‘I acknowledge the use of ChatGPT & Grok to generate the relevant README with my supervision‘
+
 ## Project Overview
 This repository implements an end-to-end pipeline for:
 

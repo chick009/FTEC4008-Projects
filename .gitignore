@@ -9,7 +9,7 @@ __pycache__/
 
 # Output directories
 Execution_Proof/
-merged_dataset/
+
 
 # Environment
 .env
