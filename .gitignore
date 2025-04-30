@@ -1,0 +1,18 @@
+# Large data files
+*.csv
+*.pt
+*.pth
+
+# Cache directories
+__pycache__/
+.ipynb_checkpoints/
+
+# Output directories
+Execution_Proof/
+merged_dataset/
+
+# Environment
+.env
+.venv
+env/
+venv/ 

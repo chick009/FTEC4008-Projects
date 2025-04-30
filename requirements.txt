@@ -1,0 +1,12 @@
+numpy
+pandas
+torch
+transformers
+scikit-learn
+matplotlib
+seaborn
+tqdm
+yfinance
+collections
+chronos-forecasting
+transformers==4.40.1
